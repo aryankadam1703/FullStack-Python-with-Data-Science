@@ -1,0 +1,67 @@
+Interview Questions
+
+1. Explain Built in methods?
+    Built-in functions in Python are pre-defined functions that are readily available for use without requiring any explicit import statements. 
+    These functions are part of the core Python language and provide common functionalities, simplifying various programming tasks.
+
+2. How to check data type of variable?
+    In Python, the data type of a variable can be determined using built-in type() function.
+    for example :- a = 10
+                   print(type(a)) #<class int>
+
+3. How to get memory address of a variable?
+    In Python, you can obtain a unique identifier for an object, which effectively represents its memory address, using the built-in id() function. 
+    This function returns an integer that is guaranteed to be unique for the lifetime of the object.
+
+4. Explain Operator and its type?
+    Operators in Python are special symbols or keywords that perform operations on one or more values or variables, known as operands. 
+    They are fundamental building blocks for writing expressions and manipulating data.
+    Types :-
+            Arithmetic Operators(+, -, *, /, %, //, **)
+            comparison Operators(==, !=, >, <, >=, <=)
+            Assignment Operators(=, +=, -=, *=, /=, %=, //=, **=)
+            Logical Operators(and, or, not)
+            MEmbership Operators(in, not in)
+            Identity Operators(is, is not)
+            Bitwise Operators()
+
+5. Explain arithmetic Operator with example
+    - Arithmetic operators in Python are used to perform mathematical operations on numeric values. 
+        Here are the main arithmetic operators with examples:
+        
+        #addition
+        a = 5
+        b = 3
+        print(a + b)  # Output: 8
+
+        # Subtraction
+        print(a - b)  # Output: 2
+
+        # Multiplication
+        print(a * b)  # Output: 15
+
+        # Division
+        print(a / b)  # Output: 1.666...
+
+        # Modulus (remainder)
+        print(a % b)  # Output: 2
+
+        # Floor Division (quotient without remainder)
+        print(a // b) # Output: 1
+
+        # Exponentiation
+        print(a ** b) # Output: 125
+
+6. What are identifiers & variable?
+
+    Identifiers:
+    - Identifiers are names used to identify variables, functions, classes, modules, and other objects in Python. 
+    - They must start with a letter (a-z, A-Z) or an underscore (_), followed by letters, digits (0-9), or underscores. 
+    - Identifiers are case-sensitive.
+
+    Variable:
+    -A variable is an identifier that is used to store data values. The value assigned to a variable can change during program execution. 
+    For example:
+        name = "Alice"
+        age = 25
+    Here, 'name' and 'age' are variables (identifiers) storing a string and an integer value, respectively.
