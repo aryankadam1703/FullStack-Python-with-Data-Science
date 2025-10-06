@@ -1,0 +1,33 @@
+Agenda
+1. Keywords
+2. Identifiers
+3. Variables
+
+1 Keywords - predefined words in python which cannot be used as identifiers
+#there are 35 keywords in python
+
+    import keyword
+    print("Keywords in Python:", keyword.kwlist) #print list of keywords
+
+2 Identifiers - names given to variables, functions, classes, etc.
+Rules for identifiers:
+    1. Can contain letters, digits, and underscores
+    2. Cannot start with a digit
+    3. Cannot be a keyword
+    4. Case-sensitive
+    5. Cannot contain special characters (except underscore)
+    6. There no specific length limit for writting variable
+
+3 Variables - is a container used to store data values
+    syntax: variable_name = value
+
+
+Build in Methods
+    1. input() - accept input from user
+    2. eval() - This function evaluates a string as a Python expression.
+
+4. Type Casting - To convert on datatype to another datatype
+    int()
+    str()
+    float()
+    complex()
